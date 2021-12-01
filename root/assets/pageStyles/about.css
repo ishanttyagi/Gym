@@ -1,0 +1,326 @@
+ /*Our Lagacy*/
+  .ourlagacy .titleMain {
+    background-image:url('../images/textures/heroTextBg-Textureol.png');
+    word-wrap: break-word;
+    line-height: 0.67em !important;
+        background-color: transparent;
+  }
+  @media only screen and (min-width: 992px){
+    .ourlagacy .titleMain span.year{
+      margin-left: -15px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .ourlagacy {
+      /*margin-top: -20px;*/
+    }
+  }
+  .swiper-button-next.swiper-button-white, .swiper-container-rtl .swiper-button-prev.swiper-button-white {
+    background-image: none;
+  }
+  .swiper-button-prev.swiper-button-white, .swiper-container-rtl .swiper-button-next.swiper-button-white {
+    background-image: none;
+  }
+
+  @media only screen and (min-width: 768px){
+    .ourlagacy .slide-img {
+      /*height: 435px;*/
+    }
+    .swiper-button-next, .swiper-button-prev {
+      /*top: 42%;*/
+    }
+  }
+  @media only screen and (min-width: 992px){
+    .ourlagacy .slide-img {
+      height: 489px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+      top: 0%;
+    }
+
+  }
+
+  .ourlagacy .swiper-container .swiper-pagination .swiper-pagination-bullet:after {
+    margin-left: 5px;
+  }
+
+  .ourlagacy span.titleMain.animateslide.bounceIn {
+    font-size: calc(10vw);
+  }
+  .ourlagacy .lspace {
+    letter-spacing: 4px;
+    line-height: 1em;
+  }
+
+  .ourlagacy .semibold1 {
+    /* font-size: calc(3vw);*/
+  }
+  .ourlagacy p.animateslide.fadeIn{
+    /* font-size: calc(1vw);*/
+  }
+  .ourlagacy  p {
+    margin:0;
+  }
+  .ourlagacy .slide-sub-content{
+    margin-top: 20px;
+  }
+  .ourlagacy .animateslide.fadeIn p{
+    margin-top: 20px;
+    line-height: 2em !important;
+  }
+  @media only screen and (max-width: 991px) and (min-width: 768px)
+  {
+    .ourlagacy .slide-sub-content{
+      margin-top: 20px;
+    }
+    .ourlagacy .animateslide.fadeIn p{
+      margin-top: 10px;
+    }
+    .ourlagacy .WGhistory .row .pull-right .WGrotateDiv {
+      margin-left: 60%;
+    }
+    .ourlagacy .WGhistory .WGrotateDiv .titleMain{
+      padding-bottom: 5px;
+    }
+    .ourlagacy .swiper-button-next, .ourlagacy .swiper-button-prev {
+      left: 95%;
+    }
+    .ourlagacy .WGhistory .WGrotateDiv {
+      margin-top: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 991px)
+  {
+    .ourlagacy .WGhistory .row .pull-right .WGrotateDiv {
+      margin-right: -48px;
+    }
+    .ourlagacy span.titleMain.animateslide.bounceIn {
+      font-size: 4em;
+    }
+    .ourlagacy .swiper-button-next, .ourlagacy .swiper-button-prev{
+      bottom:-15px;
+      top:inherit;
+    }
+    .ourlagacy .semibold1 {
+      font-size: 1.5em
+    }
+    .ourlagacy p.animateslide.fadeIn p{
+      font-size:1em;
+    }
+   /* .ourlagacy p.animateslide.fadeIn:hover,
+    .ourlagacy p.animateslide.fadeIn:focus {
+      overflow-y: scroll !important;
+    }*/
+  }
+  /*@@media only screen and (min-width: 992px){
+    .ourlagacy p.animateslide.fadeIn:hover,
+    .ourlagacy p.animateslide.fadeIn:focus {
+      overflow-y: scroll !important;
+    }
+  }*/
+  .WGhistory {
+    padding-top: 0;
+  }
+  .ourlagacy p.animateslide.fadeIn::-webkit-scrollbar {
+    width: 3px;
+  }
+  /* Track */
+  .ourlagacy p.animateslide.fadeIn::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  /* Handle */
+  .ourlagacy p.animateslide.fadeIn::-webkit-scrollbar-thumb {
+    background: #E7E7E7;
+  }
+  .ourlagacy p.animateslide.fadeIn::-webkit-scrollbar-thumb:window-inactive {
+    background: #E7E7E7;
+  }
+  /* Our Lagacy*/
+  
+  
+  
+  
+  
+  .icon-size{
+    	font-size: 1.6em;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+        margin: 0;
+    }
+    .sixslides{
+      width: 12% !important;
+    }
+    .sixslides .icon-circle:after{
+      width: 75%;
+      left: 62%;
+    }
+    .fiveslides{
+      width: 15% !important;
+    }
+    .fiveslides .icon-circle:after{
+      width: 80%;
+      left: 60%
+    }
+    .fourslides{
+      width: 20% !important;
+    }
+    .fourslides .icon-circle:after{
+      width: 83%;
+      left: 58%;
+    }
+    .threeslides{
+      width: 30% !important;
+    }
+    .threeslides .icon-circle:after{
+      width: 90%;
+      left: 55%;
+    }
+    .twoslides{
+      width: 50% !important;
+    }
+    .twoslides .icon-circle:after{
+      width: 94%;
+      left: 53%;
+    }
+    .swiper-pagination-bullet-active .icon-size:before{
+      margin-left: 30px !important;
+      top: 11px !important;
+    }
+    .swiper-pagination span:last-child i:after {
+      border-bottom: 0;
+    }
+    .years-space{
+      display: block;
+      pointer-events: none;
+      margin-left: 10px !important;
+    }
+    .swiper-pagination-bullets {
+      margin: auto;
+    }
+    .swiper-pagination-bullet .icon-circle:after{
+      position: absolute;
+      border-bottom: 1px solid #fff;
+      height: 2px;
+      content: "";
+      top: 15px;
+    }
+    .swiper-pagination-bullet{
+      position: relative;
+    }
+    .swiper-pagination-bullet:after{
+      margin-left: 0px !important;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px){
+      .swiper-pagination-bullet-active .icon-size:before{
+        margin-left: 30px !important;
+      }
+      .swiper-pagination-bullet .years-space{
+        font-size: 1em !important;
+        margin-left: 10px !important;
+      }
+      .sixslides .icon-circle:after{
+        width: 60% !important;
+        left: 70% !important;
+      }
+      .fiveslides .icon-circle:after{
+        width: 65% !important;
+        left: 66% !important;
+      }
+      .fourslides .icon-circle:after{
+        width: 74% !important;
+        left: 62% !important;
+      }
+      .threeslides .icon-circle:after{
+        width: 83% !important;
+        left: 58% !important;
+      }
+      .twoslides .icon-circle:after{
+        width: 90% !important;
+        left: 55% !important;
+      }
+    }
+    @media only screen and (max-width: 767px){
+      .ourlagacy .WGhistory .row .pull-right{
+        padding:0;
+      }
+      .ourlagacy .swiper-button-next, .ourlagacy .swiper-button-prev {
+        left: 92%;
+        /*top: 60%;*/
+        font-size: 1em;
+      }
+      .swiper-pagination-bullet .icon-circle:after{
+        top: 10px !important;
+      }
+      .sixslides, .fiveslides {
+        width: 16% !important;
+        margin: auto !important;
+      }
+      .sixslides .icon-circle:after, .fiveslides .icon-circle:after{
+        width: 74%;
+        left: 63%;
+      }
+      .fourslides {
+    	width: 14% !important;
+      }
+      .fourslides .icon-circle:after{
+        width: 76% !important;
+        left: 62% !important;
+      }
+      .threeslides{
+        width: 32% !important;
+      }
+      .threeslides .icon-circle:after{
+        width: 75% !important;
+        left: 62% !important;
+      }
+      .twoslides {
+        width: 50% !important;
+      }
+      .twoslides .icon-circle:after{
+        width: 84% !important;
+        left: 58% !important;
+      }
+      .swiper-pagination-bullet-active .icon-size:before{
+        margin-left: 20px !important;
+        top: 7px !important;
+      }
+    }
+    span.years-space {
+      padding-right: 0%;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px){
+      .swiper-pagination-bullet-active .icon-size:before{
+      	margin-left: 22px !important;
+        top: 7px !important;
+      }
+      .swiper-pagination-bullet .icon-circle:after{
+      	top: 11px;
+      }
+      .sixslides .icon-circle:after{
+        width: 86% !important;
+    	left: 56% !important;
+      }
+      .fiveslides .icon-circle:after{
+        width: 88% !important;
+    	left: 56% !important;
+      }
+      .fourslides .icon-circle:after {
+        width: 87% !important;
+        left: 56% !important;
+      }
+      .threeslides .icon-circle:after {
+        width: 86% !important;
+        left: 56.5% !important;
+      }
+      .twoslides .icon-circle:after {
+        width: 92% !important;
+        left: 53.8% !important;
+      }
+    }
+    #OurLegacyHeroImages{
+      /*For ADA Issue Fix */
+     background-color: #33302D; 
+      float: none;
+    }

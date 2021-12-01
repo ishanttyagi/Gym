@@ -1,0 +1,37 @@
+.gallery {
+    background: #ccc;
+    /* display: grid; */
+    width: 100%;
+    /* position: relative; */
+}
+
+.gimg {
+    width: 300px;
+    height: 250px;
+    margin-top: 80px;
+    padding-bottom: 25px;
+}
+
+.gimg img {
+    transition: .6s ease-in;
+}
+
+.gimg img:hover {
+    transform: scale(1.2);
+    border-radius: 16px;
+}
+
+.gall {
+    width: 100%;
+    background-color: aliceblue;
+    padding: 40px;
+}
+
+.vid {
+    width: 60%;
+    height: 60%;
+}
+
+.desc {
+    line-height: 1.2px;
+}
